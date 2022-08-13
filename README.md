@@ -1,4 +1,4 @@
 # calculator-app
 Calculator - HTML, CSS and JS
 Check the link : https://rahulrs21.github.io/calculator-app/
-![Calculator-app!](https://github.com/rahulrs21/calculator-app/blob/main/Calculator-app.png?raw=true)
+![Calculator-app!](https://raw.githubusercontent.com/rahulrs21/calculator-app/main/Calculator-app.jpg)
