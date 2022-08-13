@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    
+    <!-- This is my font style link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>CALCULATOR</h1>
+        <table class="center">
+                <tr>
+                    <td colspan="4">
+                        <input type="text" id="form_input" class="form_input">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="button" id="reset_but" onclick="reset()" class="button_style3" value="AC"></td>
+                    <td colspan="2"><input type="button" onclick="d_pop()" class="button_style3" value="Delete"></td>
+                </tr>
+    
+                <tr>
+                    <td><input type="button" onclick="myNumber(7)" class="button_style" value="7"></td>
+                    <td><input type="button" onclick="myNumber(8)" class="button_style" value="8"></td>
+                    <td><input type="button" onclick="myNumber(9)" class="button_style" value="9"></td>
+                    <td><input type="button" onclick="myNumber('+')" class="button_style" value="+"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" onclick="myNumber(4)" class="button_style" value="4"></td>
+                    <td><input type="button" onclick="myNumber(5)" class="button_style" value="5"></td>
+                    <td><input type="button" onclick="myNumber(6)" class="button_style" value="6"></td>
+                    <td><input type="button" onclick="myNumber('-')" class="button_style" value="-"></td>
+                </tr>
+                <tr>
+                    
+                    <td><input type="button" onclick="myNumber(1)" class="button_style" value="1"></td>
+                    <td><input type="button" onclick="myNumber(2)" class="button_style" value="2"></td>
+                    <td><input type="button" onclick="myNumber(3)" class="button_style" value="3"></td>
+                    <td><input type="button" onclick="myNumber('*')" class="button_style" value="*"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" onclick="myNumber(0)" class="button_style" value="0"></td>
+                    <td><input type="button" onclick="myNumber('00')" class="button_style" value="00"></td>
+                    <td><button type="button" id="point_but" onclick="myNumber('.')" class="button_style2" value=".">.</button></td>
+                    <td><input type="button" onclick="myNumber('/')" class="button_style" value="/"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><input onclick="myRes()" type="button" class="button_style_clear" value="="></td>
+                </tr>
+           
+        </table>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
